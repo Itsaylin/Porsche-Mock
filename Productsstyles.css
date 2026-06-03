@@ -1,0 +1,124 @@
+.topnav {
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+  top: 100%;
+}
+
+
+.topnav a:hover {
+  color: black;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#mySearch {
+  width: 17%;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  
+}
+
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+
+.slidecontainer {
+  width: 10px;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  
+}
+
+
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+
+}
+
+.main {
+  margin-left: 140px;
+  font-size: 10px;
+  padding: 0px 10px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  position: relative;
+}
+
+.column > .shop-cart {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  z-index: 1;
+  width: 50px;
+}
+.column > .search-product {
+  position: absolute;
+  top: 25%;
+  left: 52%;
+  z-index: 1;
+  width: 50px;
+}
+
+
+#a-1{
+  padding-left: 550px;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+}
+
+
+.shop-cart, .search-product {
+  opacity: 0;
+}
+
+.column:hover .search-product, .column:hover .shop-cart {
+  opacity: 1;
+}
